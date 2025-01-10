@@ -1,0 +1,18 @@
+<module>
+    <id>xibosignage-loterias-quina</id>
+    <name>Loterias - Quina</name>
+    <author>Henrique Lucas</author>
+    <description>Modulo para exibir resultados da loteria da Quina</description>
+    <class>\Xibo\Custom\QuinaDataProvider</class>
+    <type>quina</type>
+    <dataType>quina</dataType>
+    <schemaVersion>1</schemaVersion>
+    <assignable>1</assignable>
+    <regionSpecific>1</regionSpecific>
+    <renderAs>html</renderAs>
+    <defaultDuration></defaultDuration>
+    <settings></settings>
+    <properties>
+    </properties>
+    <preview></preview>
+</module>

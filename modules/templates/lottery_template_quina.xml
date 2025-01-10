@@ -1,0 +1,65 @@
+<!--
+  ~ Copyright (C) 2023 Xibo Signage Ltd
+  ~
+  ~ Xibo - Digital Signage - https://xibosignage.com
+  ~
+  ~ This file is part of Xibo.
+  ~
+  ~ Xibo is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ any later version.
+  ~
+  ~ Xibo is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with Xibo.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<!--
+  ~ Copyright (C) 2023 Xibo Signage Ltd
+  ~
+  ~ Xibo - Digital Signage - https://xibosignage.com
+  ~
+  ~ This file is part of Xibo.
+  ~
+  ~ Xibo is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ any later version.
+  ~
+  ~ Xibo is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with Xibo.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<templates>
+    <template>
+        <id>quina_subject</id>
+        <extends override="text" with="data.subject">text</extends>
+        <title>Número do Concurso</title>
+        <type>element</type>
+        <dataType>quina</dataType>
+        <icon>fas fa-font</icon>
+        <canRotate>true</canRotate>
+        <startWidth>800</startWidth>
+        <startHeight>100</startHeight>
+    </template>
+    <template>
+        <id>quina_body</id>
+        <extends override="text" with="data.body" escapeHtml="false">text</extends>
+        <title>Resultados</title>
+        <type>element</type>
+        <dataType>quina</dataType>
+        <icon>fas fa-envelope</icon>
+        <canRotate>true</canRotate>
+        <startWidth>800</startWidth>
+        <startHeight>400</startHeight>
+    </template>
+</templates>
